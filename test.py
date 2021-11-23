@@ -7,7 +7,7 @@ from code import *
 class Test(unittest.TestCase):
     def test_addition(self):
         data = [5, 10]
-        expected = 15
+        expected = 16
         self.assertEqual(addition(data[0], data[1]), expected)
 
     def test_subtraction(self):
